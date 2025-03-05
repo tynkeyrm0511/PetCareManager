@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PetCareManager
 {
-    public partial class DangNhap: Form
+    public partial class frmDangNhap: Form
     {
-        public DangNhap()
+        public frmDangNhap()
         {
             InitializeComponent();
         }
@@ -25,6 +25,11 @@ namespace PetCareManager
                 Application.Exit();
             }
             Console.Write("Test Commit");
+        }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
