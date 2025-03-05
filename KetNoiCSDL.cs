@@ -11,7 +11,7 @@ namespace PetCareManager
 {
     public static class KetNoiCSDL
     {
-        private static readonly string ChuoiKN = ConfigurationManager.ConnectionStrings["QuanLyChamSocThuCung"].ConnectionString;
+        private static readonly string ChuoiKN = "Data Source=DESKTOP-JS23JGK;Initial Catalog=QuanLyChamSocThuCung;User ID=sa;Password=123;";
         //Phuong thuc mo ket noi
         public static SqlConnection MoKetNoi()
         {
