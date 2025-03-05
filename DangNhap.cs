@@ -24,7 +24,7 @@ namespace PetCareManager
             {
                 Application.Exit();
             }
-            Console.Write("Nguyen Dep Trai");
+            Console.Write("Test Commit");
         }
     }
 }
